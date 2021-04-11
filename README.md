@@ -17,7 +17,7 @@ The company provides hardware to other firms and recently realized that their sa
 
 ## Dataset
 Database (MySQL) with five tables: customers, date, markets, products, transactions.
-Data Cleaning and preprocessing:
+Data Cleaning and preprocessing using Tableau:
 - Removal of null values. For example, old companies that no longer take hardware from the Unnamed company.
 - Removal of invalid values and filtering (e.g. >= 1 sales quantity etc.)
 - Currency conversion ("USD" to "INR"). All prices need to be in Indian Rupee for proper insights.
