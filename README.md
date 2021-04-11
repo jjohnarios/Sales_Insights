@@ -1,5 +1,8 @@
 # Sales Insights :chart_with_upwards_trend:
 Sales Insights for an Unnamed Company in India.
+
+![MySQL](https://img.shields.io/badge/-MySQL-blue) ![Tableau](https://img.shields.io/badge/-Tableau-orange)
+
 ## Main Idea - Problem Statement
 The company provides hardware to other firms and recently realized that their sales are decreasing. The manager asked the Data Analysis Team for Data Insights. Initially, they were looking to find:
 - Revenue by cities
