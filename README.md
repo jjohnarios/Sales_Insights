@@ -33,7 +33,7 @@ WHERE YEAR(order_date)="2020";`
 FROM sales.customers
 		INNER JOIN sales.transactions 
                 ON sales.customers.customer_code=sales.transactions.customer_code;`
-5. Show customers with more than 20 million total INR on our tansactions
+5. Show customers with more than 20 million total INR on our tansactions <br>
 `SELECT customers.customer_code,customers.custmer_name,sum(sales_amount) AS Price FROM sales.transactions
 INNER JOIN customers ON transactions.customer_code=customers.customer_code
 group by customer_code HAVING Price >20000000;`
