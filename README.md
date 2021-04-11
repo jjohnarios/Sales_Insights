@@ -17,11 +17,15 @@ The company provides hardware to other firms and recently realized that their sa
 </p>
 
 ## Dataset
-Database (MySQL) with five tables: customers, date, markets, products, transactions.<br>
+**Version 1** -> Database (MySQL) with five tables: customers, date, markets, products, transactions 
+`sales_db.sql`.<br>
 Data Cleaning and preprocessing using Tableau:
 - Removal of null values. For example, old companies that no longer take hardware from the Unnamed company.
 - Removal of invalid values and filtering (e.g. >= 1 sales quantity etc.)
 - Currency conversion ("USD" to "INR"). All prices need to be in Indian Rupee for proper insights.
+
+**Version 2** -> Preprocessed database (MySQL) with three additional columns in the transactions table (profit,profit_margin,cost_price) 
+`sales_db_v2.sql`.
 ## Sample SQL queries for Data Analysis
 
 1. Show number of transactions performed in 2019 <br>
