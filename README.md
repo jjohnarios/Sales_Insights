@@ -1,9 +1,9 @@
-# Sales_Insights 
+# Sales Insights :chart_with_upwards_trend:
 Sales Insights for an Unnamed Company in India.
 ## Main Idea - Problem Statement
-The company provides hardware to other firms and recently realised that their sales are decreasing. The manager asked the Data Analysis Team for Data Insights. Initially, they were looking to find:
+The company provides hardware to other firms and recently realized that their sales are decreasing. The manager asked the Data Analysis Team for Data Insights. Initially, they were looking to find:
 - Revenue by cities
-- Rvenue by year
+- Revenue by year
 - Top 5 costumers by revenue
 - Top 5 products by revenue
 
@@ -38,5 +38,5 @@ FROM sales.customers
 INNER JOIN customers ON transactions.customer_code=customers.customer_code__
 group by customer_code HAVING Price >20000000;`
 
-## Acknowledgments
--Thanks to @codebasics for providing the dataset and his project idea.
+
+Acknowledgments to @codebasics for providing the dataset and his idea.
