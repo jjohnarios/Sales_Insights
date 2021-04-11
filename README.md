@@ -16,7 +16,7 @@ The company provides hardware to other firms and recently realized that their sa
 </p>
 
 ## Dataset
-Database (MySQL) with five tables: customers, date, markets, products, transactions.
+Database (MySQL) with five tables: customers, date, markets, products, transactions.<br>
 Data Cleaning and preprocessing using Tableau:
 - Removal of null values. For example, old companies that no longer take hardware from the Unnamed company.
 - Removal of invalid values and filtering (e.g. >= 1 sales quantity etc.)
