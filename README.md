@@ -43,4 +43,4 @@ INNER JOIN customers ON transactions.customer_code=customers.customer_code
 group by customer_code HAVING Price >20000000;`
 
 
-Acknowledgments to @codebasics for providing the dataset and his idea.
+Acknowledgments to @codebasics for providing the dataset.
