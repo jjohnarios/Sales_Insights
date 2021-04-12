@@ -1,6 +1,6 @@
 # Sales Insights :chart_with_upwards_trend:
 Sales Insights for an Unnamed Company in India.
-Dashboard links: [Sales_Insights](https://public.tableau.com/views/SalesInsights_16181408686320/SalesDashboard?:language=en&:retry=yes&:display_count=y&:origin=viz_share_link)
+Dashboard links: [Sales_Insights](https://public.tableau.com/views/SalesInsights_16181408686320/SalesDashboard?:language=en&:retry=yes&:display_count=y&:origin=viz_share_link)&emsp;|&emsp;[Profit Analysis]([Sales_Insights](https://public.tableau.com/views/SalesInsights_16181408686320/SalesDashboard?:language=en&:retry=yes&:display_count=y&:origin=viz_share_link))
 
 ![MySQL](https://img.shields.io/badge/-MySQL-blue) ![Tableau](https://img.shields.io/badge/-Tableau-orange)
 
@@ -46,5 +46,11 @@ FROM sales.customers
 INNER JOIN customers ON transactions.customer_code=customers.customer_code
 group by customer_code HAVING Price >20000000;`
 
+## Update - Version 2
+The manager asked gave feedback and asked the Data Analysis Team for another dashboard with profit analysis. This dashboard (version_2) should contain:
+- Profit Margin by Market
+- Revenue by Customer Type
+- Profit Margin, Revenue for each Customer
+- Profit Trend
 
 Acknowledgments to @codebasics for providing the dataset.
