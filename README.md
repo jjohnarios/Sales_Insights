@@ -1,6 +1,6 @@
 # Sales Insights :chart_with_upwards_trend:
 Sales Insights for an Unnamed Company in India.
-Dashboard links: [Sales_Insights](https://public.tableau.com/views/SalesInsights_16181408686320/SalesDashboard?:language=en&:retry=yes&:display_count=y&:origin=viz_share_link)&emsp;|&emsp;[Profit Analysis]([Sales_Insights](https://public.tableau.com/views/SalesInsights_16181408686320/SalesDashboard?:language=en&:retry=yes&:display_count=y&:origin=viz_share_link))
+Dashboard links: [Sales_Insights](https://public.tableau.com/views/SalesInsights_16181408686320/SalesDashboard?:language=en&:retry=yes&:display_count=y&:origin=viz_share_link)&emsp; & &emsp; [Profit Analysis](https://public.tableau.com/views/Profit_Analysis_16182248368330/ProfitAnalysisDashboard?:language=en&:retryBootstrapAttempts=1&:display_count=y&:origin=viz_share_link)
 
 ![MySQL](https://img.shields.io/badge/-MySQL-blue) ![Tableau](https://img.shields.io/badge/-Tableau-orange)
 
